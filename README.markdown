@@ -8,7 +8,7 @@
 
 Make sure you have the latest infuse gem:
 
-    gem install n3bulous-infuse -s http://gems.github.com
+    sudo gem install n3bulous-infuse -s http://gems.github.com
 
 Install the TextMate bundle:
 
