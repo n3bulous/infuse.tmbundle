@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Infuse</string>
+	<key>ordering</key>
+	<array>
+		<string>DD07E22D-2342-4381-9A5B-711A8433743F</string>
+		<string>A826D6FB-2050-4396-BC6C-7C3BBC17FA48</string>
+		<string>CCC6DE94-3ACF-4F98-B178-89A68AE969E7</string>
+		<string>58106E06-EF6C-4D3C-96BE-828875F29B93</string>
+		<string>3C15648C-3A17-4704-972B-FB79F36D9567</string>
+	</array>
+	<key>uuid</key>
+	<string>962C233F-9431-4BBE-A622-6D6DF34C6D92</string>
+</dict>
+</plist>

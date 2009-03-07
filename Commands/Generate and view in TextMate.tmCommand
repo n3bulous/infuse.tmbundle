@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>infuse $TM_FILEPATH
+HTML_DIR=`basename "$TM_FILEPATH" .infuse`
+HTML_FILE="$TM_DIRECTORY/$HTML_DIR/$HTML_DIR.html"
+cat $HTML_FILE</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@r</string>
+	<key>name</key>
+	<string>Generate and view in TextMate</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.html.textile.infuse</string>
+	<key>uuid</key>
+	<string>3C15648C-3A17-4704-972B-FB79F36D9567</string>
+</dict>
+</plist>
