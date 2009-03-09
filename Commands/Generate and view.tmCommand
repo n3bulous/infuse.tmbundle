@@ -7,8 +7,8 @@
 	<key>command</key>
 	<string>infuse $TM_FILEPATH
 HTML_DIR=`basename "$TM_FILEPATH" .infuse`
-HTML_FILE="$TM_DIRECTORY/$HTML_DIR/$HTML_DIR.html"
-open "$HTML_FILE"</string>
+HTML_FILE=${TM_DIRECTORY}/${HTML_DIR}/${HTML_DIR}.html
+open $HTML_FILE</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -16,7 +16,7 @@ open "$HTML_FILE"</string>
 	<key>name</key>
 	<string>Generate and view</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>scope</key>
 	<string>text.html.textile.infuse</string>
 	<key>uuid</key>
