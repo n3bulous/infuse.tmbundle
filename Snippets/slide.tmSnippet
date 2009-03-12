@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>slide "$1", &lt;&lt;_EOS
+	<string>slide "$1", %{
 $0
-_EOS
+}
 	</string>
 	<key>name</key>
 	<string>slide</string>

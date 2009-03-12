@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>notes &lt;&lt;_NOTES
+	<string>notes %{
 $0
-_NOTES
+}
 	</string>
 	<key>name</key>
 	<string>notes</string>
